@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Bump version and push tag
-        uses: QustodioPablo/github-bumpversion-action@v0.0.7
+        uses: QustodioPablo/github-bumpversion-action@v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push changes
