@@ -12,5 +12,5 @@ outputs:
   part:
     description: 'The part of version which was bumped'
 branding:
-  icon: 'chevrons-up'
-  color: 'blue'
+  icon: 'arrow-up-circle'
+  color: 'purple'
